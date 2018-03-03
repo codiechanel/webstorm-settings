@@ -1,0 +1,11 @@
+<templateSet group="user">
+  <template name="lg" value="console.log(&quot;$class$&quot;, &quot;$method$&quot;, $varName$ )" description="my logger" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
