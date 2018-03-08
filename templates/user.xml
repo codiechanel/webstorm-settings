@@ -8,4 +8,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="setState" value="this.setState((previousState, currentProps) =&gt; {&#10;      return { ...previousState, foo: currentProps.bar };&#10;    });" description="my setState alternative" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
