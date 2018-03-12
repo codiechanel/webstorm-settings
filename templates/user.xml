@@ -23,4 +23,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="sta" value="const Button2: React.StatelessComponent&lt;{}&gt; = ({children}) =&gt; (&#10;    &lt;button className={style.cool}&gt;{children}&lt;/button&gt;&#10;);" description="typescript stateless component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
